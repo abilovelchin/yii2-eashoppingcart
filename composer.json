@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "EAshoppingcart": "src/"
+            "EAshoppingcart\\": "src/"
         }
     }
 }
