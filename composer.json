@@ -1,14 +1,22 @@
 {
-	"name": "e-abilov/eashoppingcart",
-	"authors": [
-		{
-			"name": "Elchin Abilov"
-		}
-	],
-	"require": {},
-	"autoload": {
-		"psr-o": {
-			"EAshoppingcart": "src/"
-		}
-	}
+    "name": "e-abilov/yii2-eashoppingcart",
+    "description": "Yii2 extension that adds shopping cart functions",
+    "keywords": ["yii", "shopping cart"],
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Elchin Abilov",
+            "email": "abilovelchin@gmail.com"
+        }
+    ],
+    "type": "yii2-extension",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "EAshoppingcart": "src/"
+        }
+    }
 }
