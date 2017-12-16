@@ -1,0 +1,14 @@
+{
+	"name": "e-abilov/eashoppingcart",
+	"authors": [
+		{
+			"name": "Elchin Abilov"
+		}
+	],
+	"require": {},
+	"autoload": {
+		"psr-o": {
+			"EAshoppingcart": "src/"
+		}
+	}
+}
