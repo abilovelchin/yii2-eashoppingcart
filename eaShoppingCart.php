@@ -1,8 +1,8 @@
 <?php
 
-namespace EAshoppingcart;
+namespace abilov\eashoppingcart;
 
-class eashoppingcart{
+class eaShoppingCart{
 	public static function me(){
 		return 'Hello Elchin Abilov\'s Shopping Cart!';
 	}
